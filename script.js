@@ -33,7 +33,7 @@ const BOOKS = [
   { title: "Frankenstein",level: "Leitura",       cover: "img/capas/Frankenstein.jpg",   pdf: "pdfs/Frankenstein.html" },
 ];
 
-// 🎵 PLAYLISTS: troque "thumb" e "url" (link da playlist no YouTube)
+// 🎵 PLAYLISTS: troque "thumb" e "url" (link da playlist no YouTube) 
 const PLAYLISTS = [
   { title: "Food & Drinks", tag: "Vocabulário",        thumb: "img/playlists/Food&Drinks.jpg",   url: "https://www.youtube.com/playlist?list=PLKObAj8oxd7Y" },
   { title: "Simple Past",    tag: "Vocabulário", thumb: "img/playlists/SimplePast.jpg",  url: "https://www.youtube.com/playlist?list=PLUxz3vdpPCs0" },
