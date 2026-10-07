@@ -102,7 +102,7 @@
           <p>Aulas 1:1 com ritmo e conteúdo 100% adaptados aos seus objetivos.</p>
           <hr class="divider" />
           <!-- 🔗 PLACEHOLDER: link do WhatsApp com mensagem pronta -->
-          <a href="https://wa.me/5511961002857?text=Quero%20saber%20sobre%20aula%20individual" target="_blank" rel="noopener" class="btn">Saiba mais</a>
+          <a href="https://wa.me/55SEUNUMERO?text=Quero%20saber%20sobre%20aula%20individual" target="_blank" rel="noopener" class="btn">Saiba mais</a>
         </article>
         <article class="card featured">
           <div class="card-icon" aria-hidden="true">
@@ -111,7 +111,7 @@
           <h3>Aula em Grupo</h3>
           <p>Turmas pequenas para praticar conversação com outros alunos do seu nível.</p>
           <hr class="divider" />
-          <a href="https://wa.me/5511961002857?text=Quero%20saber%20sobre%20aula%20em%20grupo" target="_blank" rel="noopener" class="btn">Saiba mais</a>
+          <a href="https://wa.me/55SEUNUMERO?text=Quero%20saber%20sobre%20aula%20em%20grupo" target="_blank" rel="noopener" class="btn">Saiba mais</a>
         </article>
         <article class="card">
           <div class="card-icon" aria-hidden="true">
@@ -120,7 +120,7 @@
           <h3>Inglês para Negócios</h3>
           <p>Reuniões, apresentações, e-mails e entrevistas de emprego em inglês.</p>
           <hr class="divider" />
-          <a href="https://wa.me/5511961002857?text=Quero%20saber%20sobre%20ingles%20para%20negocios" target="_blank" rel="noopener" class="btn">Saiba mais</a>
+          <a href="https://wa.me/55SEUNUMERO?text=Quero%20saber%20sobre%20ingles%20para%20negocios" target="_blank" rel="noopener" class="btn">Saiba mais</a>
         </article>
       </div>
     </div>
@@ -237,6 +237,14 @@
   <div class="container">
     <!-- ABA LIVROS -->
     <section id="tab-livros" class="tab-panel active" role="tabpanel">
+      <div id="books-filter" class="level-filter" role="group" aria-label="Filtrar livros">
+        <button aria-pressed="true" data-book="todos">Todos</button>
+        <button aria-pressed="false" data-book="avancado">Avançado</button>
+        <button aria-pressed="false" data-book="intermediario">Intermediário</button>
+        <button aria-pressed="false" data-book="basico">Básico</button>
+        <button aria-pressed="false" data-book="leitura">Leitura</button>
+        <button aria-pressed="false" data-book="resumo">Resumo</button>
+      </div>
       <div class="catalog" id="books-grid"></div>
     </section>
 
@@ -253,7 +261,7 @@
         <button aria-pressed="true" data-level="todos">Todos</button>
         <button aria-pressed="false" data-level="basico">Básico</button>
         <button aria-pressed="false" data-level="intermediario">Intermediário</button>
-        <button aria-pressed="false" data-level="dificil">Difícil</button>
+        <button aria-pressed="false" data-level="dificil">Avançado</button>
       </div>
       <div id="fc-folders" class="folders"></div>
 
@@ -276,6 +284,7 @@
             <div class="face back">
               <small>Resposta</small>
               <div class="face-text" id="fc-back"></div>
+              <div class="face-ex" id="fc-ex"></div>
             </div>
           </div>
         </div>

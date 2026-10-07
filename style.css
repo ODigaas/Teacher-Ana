@@ -264,7 +264,7 @@ footer{background:var(--indigo-950);border-top:1px solid var(--line);padding:64p
 .progress-bar{height:100%;width:0;background:var(--coral);transition:width .4s var(--ease)}
 .counter{font-size:.9rem;color:var(--muted);margin-bottom:14px}
 
-.flashcard{perspective:1200px;width:100%;height:320px;cursor:pointer;margin-bottom:28px}
+.flashcard{perspective:1200px;width:100%;height:380px;cursor:pointer;margin-bottom:28px}
 .flashcard-inner{
   position:relative;width:100%;height:100%;
   transform-style:preserve-3d;transition:transform .7s var(--ease)
@@ -379,6 +379,12 @@ footer{background:var(--indigo-950);border-top:1px solid var(--line);padding:64p
 .level-badge.level-intermediario::before{content:"●● ";color:#ffc94d}
 .level-badge.level-dificil::before{content:"●●● ";color:var(--coral-soft)}
 .empty{color:var(--muted);text-align:center;grid-column:1/-1}
+
+/* Exemplo no verso do flashcard */
+.face-ex{margin-top:16px;display:flex;flex-direction:column;gap:6px;max-width:100%;overflow:auto}
+.face-ex span{font-size:.9rem;line-height:1.4;color:#fff3f2;font-style:italic}
+.face.back .face-text{font-size:clamp(1.2rem,3.4vw,1.8rem)}
+.face.back{overflow:hidden}
 
 .hidden{display:none !important}
 
